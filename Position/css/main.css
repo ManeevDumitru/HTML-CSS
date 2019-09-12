@@ -1,0 +1,18 @@
+body {
+	background: url(../img/img1.jpg)
+}
+.position1 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.position2 {
+	position: absolute;
+	left: 850px;
+	bottom: 590px;
+}
+.position3 {
+	position: absolute;
+	top: -20px;
+	right: 530px;
+}
