@@ -1,0 +1,312 @@
+field{
+	background-color: darkgreen;
+	width: 600px;
+	height: 300px;
+	display: block;
+}
+
+field player, field referee{
+	width: 15px;
+	height: 25px;
+	border: 1px solid yellow;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	position: absolute;
+	margin-top:-12px;
+	margin-left: -12px;
+}
+
+field referee{
+	background: url(../img/ref.png);
+	background-size: cover;
+	top: 120px;
+	left: 300px;
+	color: black;
+	border: 1px solid yellow;
+}
+
+field player {
+	width: 20px;
+	border: 1px blue solid;
+	border-radius: 50%;
+	background-color: none;
+}
+
+field player:hover{
+	width: 30px;
+	height: 30px
+}
+
+field team#red-team player{
+	background: url(../img/rt.png);
+	background-size: cover;
+	border: 1px solid red;
+}
+
+field team#blue-team player{
+	background: url(../img/bt.png);
+	background-size: cover;
+}
+
+#line1 {
+	width: 1px;
+	height: 285px;
+	background: white;
+	left: 15px;
+	top: 15px;
+}
+
+#line2 {
+	width: 1px;
+	height: 285px;
+	background: white;
+	left: 305px;
+	top: 15px;
+}
+
+#line3 {
+	width: 1px;
+	height: 285px;
+	background: white;
+	left: 600px;
+	top: 15px;
+}
+
+#linev1 {
+	width: 585px;
+	height: 1px;
+	background: white;
+	left: 15px;
+	top: 15px;
+}
+
+#linev2 {
+	width: 585px;
+	height: 1px;
+	background: white 300px;
+	top: 300px;
+	left: 15px;
+}
+
+#player1-red.gr{
+	top: 150px;
+	left: 30px;
+	background: url(../img/RK.png);
+	background-size: cover;
+}
+
+#player2-red{
+	top: 50px;
+	left: 120px;
+}
+
+#player3-red{
+	top: 150px;
+	left: 120px;
+}
+
+#player4-red{
+	top: 250px;
+	left: 120px;
+}
+
+#player5-red{
+	top: 120px;
+	left: 230px;
+}
+
+#player6-red{
+	top: 200px;
+	left: 190px;
+}
+
+#player7-red{
+	top: 100px;
+	left: 190px;
+}
+
+#player8-red{
+	top: 270px;
+	left: 250px;
+}
+
+#player9-red{
+	top: 30px;
+	left: 250px;
+}
+
+#player10-red{
+	top: 130px;
+	left: 270px;
+}
+
+#player11-red{
+	top: 170px;
+	left: 270px;
+}
+
+#player1-blue.gb{
+	top: 150px;
+	left: 580px;
+	background: url(../img/BK.png);
+	background-size: cover;
+}
+
+#player2-blue{
+	top: 50px;
+	left: 480px;
+}
+
+#player3-blue{
+	top: 150px;
+	left: 480px;
+}
+
+#player4-blue{
+	top: 250px;
+	left: 480px;
+}
+
+#player5-blue{
+	top: 120px;
+	left: 400px;
+}
+
+#player6-blue{
+	top: 30px;
+	left: 350px;
+}
+
+#player7-blue{
+	top: 250px;
+	left: 350px;
+}
+
+#player8-blue{
+	top: 190px;
+	left: 450px;
+}
+
+#player9-blue{
+	top: 40px;
+	left: 430px;
+}
+
+#player10-blue{
+	top: 150px;
+	left: 325px;
+}
+
+#player11-blue{
+	top: 190px;
+	left: 315px;
+}
+
+div {
+	position: absolute;
+}
+
+.ball{
+	background: url(../img/b.png);
+	border-radius: 50%;
+	width: 17px;
+	height: 15px;
+	background-size: cover;
+	top: 145px;
+	left: 297px;
+	position: absolute;
+}
+
+.gr {
+	background: url(../img/RK.png);
+	background-size: cover;
+}
+
+.gb {
+	background: url(../img/BK.png);
+	background-size: cover;
+}
+
+#circlec {
+	width: 100px;
+	height: 100px;
+	border: 1px solid white;
+	border-radius: 50%;
+	left: 255px;
+	top: 100px;
+}
+
+#squarel1 {
+	width: 75px;
+	height: 150px;
+	left: 15px;
+	top: 75px;
+	border: 1px solid white;
+}
+
+#squarel2 {
+	width: 50px;
+	height: 125px;
+	left: 15px;
+	top: 87px;
+	border: 1px solid white;
+}
+
+#squarer1 {
+	width: 75px;
+	height: 150px;
+	left: 524px;
+	top: 75px;
+	border: 1px solid white;
+}
+
+#squarer2 {
+	width: 50px;
+	height: 125px;
+	left: 549px;
+	top: 87px;
+	border: 1px solid white;
+}
+
+#semicirclel {
+	width: 15px;
+	height: 65px;
+	border: 1px solid white;
+	border-top-left-radius: 0;
+	border-top-right-radius: 75%;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 75%;
+	top: 115px;
+	left: 91px;
+}
+
+#semicircler {
+	width: 15px;
+	height: 65px;
+	border: 1px solid white;
+	border-top-left-radius: 75%;
+	border-bottom-left-radius: 75%;
+	top: 115px;
+	left: 508px;	
+}
+
+#bench1 {
+	background: url(../img/be.png);
+	background-size: cover;
+	border: 1px solid black;
+	height: 50px;
+	width: 75px;
+	top: 350px;
+	left: 150px;
+}
+
+#bench2 {
+	background: url(../img/be.png);
+	background-size: cover;
+	border: 1px solid black;
+	height: 50px;
+	width: 75px;
+	top: 350px;
+	left: 450px;
+}
