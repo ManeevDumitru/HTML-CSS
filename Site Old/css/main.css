@@ -1,0 +1,64 @@
+body {
+	background: white;
+}
+
+header {
+	background: black;
+	color: white;
+	font-size: 78px;
+	font-style: italic;
+	text-shadow: 2px 2px 2px lime;
+}
+
+aside, section {
+	display: inline-block;
+}
+
+aside {
+	background: yellow;
+	width: 20%;
+	vertical-align: middle;
+}
+
+section {
+	background: #F1F6D1;
+	width: 79%;
+}
+
+footer {
+	background: lightblue;
+	vertical-align: bottom;
+	padding: 10px;
+	margin-bottom: : -6px;
+}
+
+#Logo {
+	position: relative;
+	top:8px;
+	left: 20px;
+	width: 150px;
+}
+
+#right {
+	position: absolute;
+	right: 75px;
+	top: 50px;
+	font-size: 40px;
+	color: White;
+	font: ;
+	text-shadow: none;
+}
+
+#left {
+	position: absolute;
+	top: 10px;
+	left: 200px;
+}
+
+#menuitem {
+      width: 150px;
+      height: 100px;
+      transform: skew(20deg);
+      background: red;
+}
+

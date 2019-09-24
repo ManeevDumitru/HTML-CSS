@@ -1,0 +1,31 @@
+nav { 
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+
+}
+
+nav ul li:hover {
+	background: lightgray;
+	color: red;
+	border: 2px solid gray;
+	transform: skew(-10deg);
+}
+
+nav ul li {
+	background: black;
+	border-spacing: 2px;
+	color: white;
+	display: inline-block;
+	margin-right:10px;
+	width: 30%;
+	border: 2px white solid;
+}
+
+li {
+	text-align: center;
+	font-size: 55px;
+}
+
