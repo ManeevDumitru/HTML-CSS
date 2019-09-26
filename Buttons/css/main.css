@@ -1,0 +1,76 @@
+body {
+	background: white;
+	font-family: "Motiva Sans", Sans-serif;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+#div1 {
+	background: #737373;
+}
+
+a.b1 {
+	color: white;
+	background: black;
+	border-bottom: 1px solid lime;
+	padding: 5px 45px;
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	transition: transform 0.4s ease-out;
+}
+
+a.b1:hover {
+	color: lime;
+	transform: skew(-5deg);
+	border: 1px solid lime;
+	box-shadow: 0 0 2px lime;
+}
+
+a.b2 {
+	color: white;
+	background: #737373;
+	border-bottom: 1px solid red;
+	padding: 5px 45px;
+	position: absolute;
+	top: 75px;
+	left: 100px;
+	transition: transform 0.1s ease-out;
+}
+
+a.b2:hover {
+	color: red;
+}
+
+line {
+	background: #737373;
+	width: 700px;
+	height: 50px;
+}
+
+a.b3 {
+	color: #01e2e3;
+	background: #363636;
+	border-bottom: 1px solid #01e2e3;
+	padding: 5px 45px;
+	position: absolute;
+	top: 125px;
+	left: 100px;
+	transition: transform 0.1s ease-out;
+}
+
+a.b3:hover {
+	transform: scale(1.1,1.1);
+	box-shadow: 0 0 3px cyan;
+}
+
+#audio {
+	position: absolute;
+	left: 350px;
+	top: 250px;
+}
