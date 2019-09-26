@@ -1,0 +1,107 @@
+body {
+	background: black;
+	font-family: "Motiva Sans", Sans-serif;
+	line-height: 20px;
+	letter-spacing: 0.03em;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+#White {
+	color: White;
+}
+
+#ul1 {
+	position: relative;
+	left: 50px;
+	top: 60px;
+}
+
+#ul2 {
+	position: relative;
+	left: 50px;
+	top: 100px;
+}
+
+#ul3 {
+	position: absolute;
+	left: 720px;
+	top: 25px;
+	color: #4c4c4c;
+}
+
+ul#ul3 li {
+	margin-right: 50px;
+}
+
+#ul4 {
+	position: absolute;
+	left: 720px;
+	top: 90px;
+}
+
+ul#ul4 li {
+	margin-right: -8px;
+}
+
+#but {
+	position: relative;
+	left: 60px;
+	top: 50px;
+	color: white;
+}
+
+#normal2 {
+	background: #0e0e0e;
+	width: 150px;
+	height: 25px;
+	color: white;
+	text-align: center;
+}
+
+a.button {
+	background: radial-gradient(circle, rgba(229,182,105,1) 39%, rgba(223,172,88,1) 100%);
+	padding: 15px 55px;
+	text-align: center;
+}
+
+a.button:active {
+	background: radial-gradient(circle, rgba(232,202,152,1) 15%, rgba(233,184,103,1) 57%, rgba(236,206,156,1) 90%);
+}
+
+a.button:hover {
+	background: radial-gradient(circle, rgba(229,182,105,1) 15%, rgba(228,187,119,1) 94%);
+	box-shadow: 0 0 20px rgba(229,182,105,0.44);
+}
+
+a.knopki {
+	background: #0e0e0e;
+	color: white;
+	padding: 5px 55px;
+}
+
+a.knopki:hover {
+	background: #1b1b1c;
+}
+
+a.round {
+	margin-right: 45px;
+	border: 2px solid #4c4c4c;
+	border-radius: 50%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+	color: #4c4c4c;
+	font-size: 50px;
+}
+
+a.round:hover {
+	border: 2px solid rgba(229,182,105);
+	color: rgba(229,182,105);
+	box-shadow: 0 0 20px rgba(229,182,105,0.44);
+}
+
+ul {
+	display: flex;
+}
